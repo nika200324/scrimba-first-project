@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+}
+
+.header {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 343px;
+    background-image: url('../images/torshov-image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-title {
+    padding: 3px 12px 5px;
+    background: #1D3557;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.header-p {
+    margin-top: 11px;
+    padding: 5px 29px 8px;
+    background: #457B9D;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.72px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+/* -------------- section 1 ------------- */
+.activities {
+    background-color: #F1FAEE;
+    padding: 39px 34px 38px;
+}
+
+.activities-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #1D3557;
+}
+
+.activities-items {
+    margin-top: 54px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.activity-item {
+    display: flex;
+    flex-direction: column;
+    width: 198px;
+    text-align: center;
+    align-items: center;
+}
+
+.activity-item img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.activity-item h3 {
+    margin: 22px 0 17px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #1D3557;
+}
+
+.activity-item p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #1D3557;
+
+}
+
+.card {
+    width: 400px;
+    height: 294px;
+    background-color: #A8DADC;
+    box-shadow: 0px 6px #1D3557;
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 23px 11px 22px 13px;
+}
+
+.card-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-item img {
+    width: 190px;
+    margin-right: 7px;
+}
+
+.card-info {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-info h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #1D3557;
+}
+
+.card-info p {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    
+    color: #1D3557;
+}
+
+.card-info h5 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #1D3557;
+}
+
+@media screen and (min-width: 720px){
+    .header{
+        height: 400px;
+    }
+}
